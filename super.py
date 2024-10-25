@@ -38,11 +38,11 @@ TouchScreen=st.selectbox('Touch Screen',['Yes','No'])
 IPSPanel=st.selectbox('IPS',['Yes','No'])
 
 if st.button('Predict Price'):
-    PPI=None
+    
     if TouchScreen=='Yes':
         TouchScreen=1
     else:
-        TouchSreen=0
+        TouchScreen=0
         
     if IPSPanel=='Yes':
         IPSPanel=1
